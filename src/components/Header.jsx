@@ -3,55 +3,102 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar bg-dark navbar-dark navbar-expand-md">
+      <nav className="navbar navbar-expand-md bg-dark fixed-top">
         <div className="container-fluid">
-          <a href="">
+          <a href="#" className="navbar-brand">
+            <img src="/src/assets/ff-logo-02.png" className="weblogo" alt="" />
             <img
-              src="https://pn-paul.netlify.app/image/ff-logo-02.png"
-              className="img123"
-              alt=""
+              src="/src/assets/logo-for-mobile.png"
+              className="moblogo"
+              alt="logo"
             />
           </a>
 
-          <div className="menu">
-            <ul className="navbar-nav">
+          {/* mobile menu */}
+          <button
+            className="navbar-toggler"
+            data-bs-target="#pn"
+            data-bs-toggle="collapse"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          {/* menu */}
+          <div className="navbar-collapse collapse" id="pn">
+            <ul className="navbar-nav ms-auto text-center">
               <li>
-                <Link to="/" className="nav-link text-light">
+                <Link
+                  className="nav-link"
+                  to="/"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   HOME
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="nav-link text-light">
+                <Link
+                  className="nav-link"
+                  to="/about"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   ABOUT
                 </Link>
               </li>
               <li>
-                <Link to="/brand" className="nav-link text-light">
+                <Link
+                  className="nav-link"
+                  to="/brand"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   BRAND
                 </Link>
               </li>
               <li>
-                <Link to="/ourTeam" className="nav-link text-light">
+                <Link
+                  className="nav-link"
+                  to="/ourTeam"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   OUR TEAM
                 </Link>
               </li>
               <li>
-                <Link to="/pressRelease" className="nav-link text-light">
+                <Link
+                  to="/pressRelease"
+                  className="nav-link"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   PRESS RELEASE
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="nav-link text-light">
+                <Link
+                  className="nav-link"
+                  to="/contact"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   CONTACT
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="nav-link text-light">
+                <Link
+                  className="nav-link"
+                  to="/careers"
+                  style={{ fontWeight: "lighter", fontSize: "15px" }}
+                >
                   CARRERS
                 </Link>
               </li>
               <li>
-                <Link to="/franchise" className="nav-link text-light">
+                <Link
+                  to="/franchise"
+                  className="nav-link"
+                  style={{
+                    fontWeight: "lighter",
+                    fontSize: "15px",
+                    border: "1px orange solid",
+                  }}
+                >
                   FRANCHISE
                 </Link>
               </li>

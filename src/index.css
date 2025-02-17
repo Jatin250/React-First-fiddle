@@ -1,3 +1,63 @@
-.img123 {
-  width: 5rem;
+/* -----------------  footer  ---------------> */
+.aaa {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+}
+
+.footer_para {
+  line-height: 30px;
+  word-spacing: 1px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+/* -----------------  header  ---------------> */
+.weblogo {
+  width: 65px;
+}
+
+.navbar {
+  background: #00000082 !important;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.moblogo {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .moblogo {
+    display: block;
+  }
+
+  .weblogo {
+    display: none;
+  }
+
+  .navbar {
+    background: #fbac1b !important;
+  }
+
+  .img123 {
+    width: 100%;
+  }
+
+  .foot {
+    display: none;
+  }
+
+  .carousel {
+    margin-top: 2.65cm;
+  }
 }
