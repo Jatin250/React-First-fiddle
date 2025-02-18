@@ -189,21 +189,79 @@
   padding-bottom: 2cm;
 }
 
-/* --------------------------  CAREERS  ------------------------> */
-.career_Bg {
-  background-image: url(/src/assets/new-careers-1.jpg);
+/* --------------------------  BRAND  ------------------------> */
+.brand_Bg {
+  background-image: url(/src/assets/brands.jpg);
   width: 100%;
-  height: 620px;
+  height: 630px;
   background-position: center;
   background-size: cover;
 }
 
-.career_Para {
+/* --------------------------  OUR TEAM  ------------------------> */
+.our_Team_Bg {
+  background-image: url(/src/assets/new-our-team.jpg);
+  width: 100%;
+  height: 630px;
+  background-position: center;
+  background-size: cover;
+}
+
+.our_Team_Para {
+  line-height: 35px;
   letter-spacing: 1px;
-  word-spacing: 2px;
-  line-height: 25px;
-  font-weight: lighter;
-  font-size: 18px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
+}
+
+.photo1 {
+  background-image: url(/src/assets/YPAshok.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+
+.photo2 {
+  background-image: url(/src/assets/B.R.-Sachdeva.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+
+.photo3 {
+  background-image: url(/src/assets/Sagar-Bajaj.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+
+.photo4 {
+  background-image: url(/src/assets/JAY-PHOTO-1-1.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+
+.photo5 {
+  background-image: url(/src/assets/vibhutiPR.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+
+/* --------------------------  PRESS RELEASE  ------------------------> */
+.press_Release_Bg {
+  background-image: url(/src/assets/press-new-1.jpg);
+  width: 100%;
+  height: 630px;
+  background-position: center;
+  background-size: cover;
 }
 
 /* --------------------------  CONTACT  ------------------------> */
@@ -231,4 +289,21 @@
   margin-top: 20px;
   font-weight: lighter;
   padding-bottom: 2cm;
+}
+
+/* --------------------------  CAREERS  ------------------------> */
+.career_Bg {
+  background-image: url(/src/assets/new-careers-1.jpg);
+  width: 100%;
+  height: 620px;
+  background-position: center;
+  background-size: cover;
+}
+
+.career_Para {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px;
+  font-weight: lighter;
+  font-size: 18px;
 }
