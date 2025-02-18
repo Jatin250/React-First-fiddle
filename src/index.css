@@ -1,4 +1,4 @@
-/* -----------------  FOOTER  ---------------> */
+/* --------------------------  FOOTER  ------------------------> */
 .a1 {
   padding-top: 20px;
   text-transform: uppercase;
@@ -13,7 +13,7 @@
   color: aliceblue;
 }
 
-/* -----------------  HEADER  ---------------> */
+/* --------------------------  HEADER  ------------------------> */
 .weblogo {
   width: 65px;
 }
@@ -62,7 +62,7 @@
   }
 }
 
-/* -----------------  HOME  ---------------> */
+/* --------------------------  HOME  ------------------------> */
 .a {
   text-align: center;
   padding-top: 20px;
@@ -121,4 +121,114 @@
   .img123 {
     width: 100%;
   }
+}
+
+/* --------------------------  ABOUT  ------------------------> */
+.about_Bg_1 {
+  background-image: url(/src/assets/ourimage.jpg);
+  width: 100%;
+  height: 620px;
+  background-position: center;
+  background-size: cover;
+}
+
+.about_Heading {
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+  margin-top: 5.5rem;
+}
+
+.about_Bg_2 {
+  background-image: url(/src/assets/gamebanner.jpg);
+  width: 100%;
+}
+
+.about_Para_1 {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
+}
+
+.about_Game_Heading {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+}
+
+.about_Para_2 {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 2cm;
+}
+
+.about_Heading_2 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+}
+
+.about_Para_3 {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 20px;
+  font-weight: lighter;
+  padding-bottom: 2cm;
+}
+
+/* --------------------------  CAREERS  ------------------------> */
+.career_Bg {
+  background-image: url(/src/assets/new-careers-1.jpg);
+  width: 100%;
+  height: 620px;
+  background-position: center;
+  background-size: cover;
+}
+
+.career_Para {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+/* --------------------------  CONTACT  ------------------------> */
+.contact_Bg {
+  background-image: url(/src/assets/CONTACT-US.jpg);
+  width: 100%;
+  height: 620px;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact_Heading {
+  font-family: unset;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+.contact_Info {
+  line-height: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 20px;
+  font-weight: lighter;
+  padding-bottom: 2cm;
 }
